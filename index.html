@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Plant Disease Detection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <h1>Plant Disease Detection</h1>
+    <p>Upload a plant image to detect possible diseases</p>
+  </header>
+
+  <!-- MAIN -->
+  <div class="container">
+
+    <!-- IMAGE UPLOAD CARD -->
+    <div class="card">
+      <h2>Upload Plant Image</h2>
+
+      <div class="upload-box">
+        <p>Click or Drag & Drop Image</p>
+      </div>
+
+      <button>Detect Disease</button>
+
+      <div class="image-preview">
+        <span>Uploaded image preview</span>
+      </div>
+    </div>
+
+    <!-- RESULT CARD -->
+    <div class="card">
+      <h2>Disease Analysis</h2>
+
+      <textarea readonly placeholder="Detected disease details will appear here..."></textarea>
+
+      <div class="info-box">
+        <p>
+          Possible disease name, confidence level, and basic treatment
+          suggestions will be shown here.
+        </p>
+      </div>
+    </div>
+
+  </div>
+<script src="script.js"></script>
+
+</body>
+</html>
